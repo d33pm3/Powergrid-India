@@ -107,7 +107,26 @@ def _parse_markdown(text: str) -> list[dict[str, Any]]:
 
 def parse_master_table(path: str | Path | None = None) -> list[dict[str, Any]]:
     """Read the baseline from CSV (preferred) or markdown section tables."""
-    master_path = Path(path) if path else default_master_path()
-    if master_path.suffix.lower() == ".csv":
-        return _parse_csv(master_path)
-    return _parse_markdown(master_path.read_text(encoding="utf-8"))
+    if path is not None:
+        master_path = Path(path)
+        if master_path.suffix.lower() == ".csv":
+            return _parse_csv(master_path)
+        return _parse_markdown(master_path.read_text(encoding="utf-8"))
+
+    root = _repo_root()
+    combined = root / "references" / "substations.csv"
+    if combined.is_file():
+        return _parse_csv(combined)
+    parts = sorted((root / "references").glob("substations-*.csv"))
+    if parts:
+        records: list[dict[str, Any]] = []
+        seen: set[str] = set()
+        for part in parts:
+            for rec in _parse_csv(part):
+                name = rec["Substation_Name"]
+                if name in seen:
+                    continue
+                seen.add(name)
+                records.append(rec)
+        return records
+    return _parse_markdown(default_master_path().read_text(encoding="utf-8"))
