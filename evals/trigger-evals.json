@@ -1,0 +1,18 @@
+[
+  {"query": "need the full list of PGCIL substations where RE projects connect — excel with capacities, states, and which developers are on each node", "should_trigger": true},
+  {"query": "whats the connectivity margin situation at fatehgarh and bhadla right now? client wants to apply for GNA for a 300MW solar project in rajasthan", "should_trigger": true},
+  {"query": "Build me a workbook of all 765kV RE evacuation substations in India with a dashboard — board meeting on Thursday.", "should_trigger": true},
+  {"query": "which substations is Adani Green connected to across india and how much MW at each?", "should_trigger": true},
+  {"query": "khavda vs bhadla vs pang — compare the evacuation infrastructure and planned capacity at each RE park", "should_trigger": true},
+  {"query": "list every BESS and pump storage node on the CTU grid, active vs planned, with regions", "should_trigger": true},
+  {"query": "my analyst put together substation data last month — refresh it against whatever CTUIL and PGCIL have published since and show the delta", "should_trigger": true},
+  {"query": "green energy corridor phase 2 — which substations are commissioned vs under construction as of now?", "should_trigger": true},
+  {"query": "what's the current CERC transmission tariff for interstate RE projects and how are GNA charges computed?", "should_trigger": false},
+  {"query": "build a financial model for Power Grid Corporation from their annual report — revenue by segment, capex, dividend capacity", "should_trigger": false},
+  {"query": "explain the electricity act provisions on open access for a note I'm writing", "should_trigger": false},
+  {"query": "which thermal plants is NTPC retiring in the next 5 years and what's the replacement plan?", "should_trigger": false},
+  {"query": "our discom client wants a compliance register for SEBI LODR — they listed last year", "should_trigger": false},
+  {"query": "here's a CEA transmission plan PDF — extract the compliance obligations into an excel register", "should_trigger": false},
+  {"query": "make a swimlane diagram of the GNA application process showing applicant, CTUIL, and RLDC roles", "should_trigger": false},
+  {"query": "what is a gas insulated substation and how does it differ from AIS? just curious", "should_trigger": false}
+]

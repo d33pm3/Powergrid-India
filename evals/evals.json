@@ -1,0 +1,56 @@
+{
+  "skill_name": "powergrid-india",
+  "evals": [
+    {
+      "id": 1,
+      "name": "full-xlsx-workbook-generation",
+      "prompt": "Generate the PAN India RE Substations workbook - all 10 sheets and the analytics dashboard. Run the live research sources first and show me what changed vs the baseline.",
+      "expected_output": "A 10-sheet .xlsx file: All_Substations (132+ rows, 11 cols including Data_Source), Regional_Summary, State_Summary, Western_Region, Northern_Region, Southern_Region, Eastern_Region, NorthEastern_Region, Top_50_Substations, Analytics_Dashboard. Dashboard has 8 blocks with dark green/navy headers. All sheets have freeze panes at A2 and auto-filter. Delivery message carries the baseline epistemic caveat and the live-verified vs baseline-indicative row counts.",
+      "files": [],
+      "assertions": [
+        "All_Substations sheet has 132 or more data rows",
+        "Total_Capacity_MW column sum is >= 130000 MW",
+        "Analytics_Dashboard sheet (Sheet 10) is present",
+        "Data_Source column exists and is populated on all rows",
+        "All 10 sheets present in correct order",
+        "Regional_Summary has exactly 5 data rows",
+        "Header fill on data sheets is #2E7D32 dark green",
+        "Freeze panes set at A2 on all sheets",
+        "Regional_Summary MW total equals All_Substations MW total (summary consistency)",
+        "Baseline epistemic caveat present in Dashboard Block 8 and in the delivery message"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "bess-and-storage-filter-query",
+      "prompt": "List all BESS and Pump Storage substations in India with their MW capacities and region. Which are Active vs Planned?",
+      "expected_output": "A table of 9 substations: Bikaner BESS PS (1000 MW), Khavda BESS PS (1000 MW), Pavagada BESS PS (500 MW), Koyna PSP PS (1000 MW), Tehri PSP PS (1000 MW), Pinnapuram PSP PS (1200 MW), Idukki PSP PS (780 MW), Kundah PSP PS (500 MW), Purulia PS (300 MW). Regional totals and Active/Planned breakdown provided.",
+      "files": [],
+      "assertions": [
+        "Response includes 9 BESS or PSP substations",
+        "Bikaner BESS PS 1000 MW is listed as Under implementation",
+        "Pavagada BESS PS is listed as Planned",
+        "Koyna PSP PS and Idukki PSP PS are listed as Active",
+        "Total MW across all storage nodes is correctly summed",
+        "Regional breakdown WR SR NR ER is provided"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "live-research-reconciliation-delta",
+      "prompt": "Run live web research against CTUIL, PGCIL, CEA, MNRE and GEC sources, build the updated workbook, and show what changed from the baseline.",
+      "expected_output": "Evidence of 5 web searches and 5 URL fetch attempts. Source log with SOURCE_LIVE or SOURCE_FALLBACK tags for each source. XLSX built with Data_Source column. Dashboard Block 8 populated with all 6 sources, status tags, and run timestamp. Delta report showing any new or updated substations.",
+      "files": [],
+      "assertions": [
+        "All 5 web searches were executed including CTUIL and PGCIL GEC queries",
+        "All 5 URLs were fetch-attempted",
+        "Source log is present in Analytics_Dashboard Block 8",
+        "Data_Source column has SOURCE_LIVE SOURCE_LIVE_NEW or SOURCE_FALLBACK_BASELINE tags",
+        "Reconciliation was applied before XLSX generation",
+        "Delta report or source summary is provided in the response"
+      ]
+    }
+  ],
+  "version": "2.1.2",
+  "note": "Canonical skill-creator schema. Records-first pipeline (build_workbook_data) - no pre-built JSON input required."
+}
