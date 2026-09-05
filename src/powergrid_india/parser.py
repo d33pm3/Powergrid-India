@@ -1,7 +1,8 @@
-"""Parse the 132-record baseline from references/substation-master.md."""
+"""Parse the 132-record baseline from CSV or markdown tables."""
 
 from __future__ import annotations
 
+import csv
 from pathlib import Path
 from typing import Any
 
@@ -27,37 +28,53 @@ COLUMN_MAP = {
 
 
 def _repo_root() -> Path:
-    # src/powergrid_india/parser.py -> repo root is parents[2]
     here = Path(__file__).resolve()
     candidates = [
+        here.parents[2] / "references" / "substations.csv",
         here.parents[2] / "references" / "substation-master.md",
-        here.parents[1] / "references" / "substation-master.md",
+        Path.cwd() / "references" / "substations.csv",
         Path.cwd() / "references" / "substation-master.md",
     ]
     for path in candidates:
         if path.is_file():
-            return path.parent.parent if path.parent.name == "references" else path.parents[1]
+            return path.parent.parent
     return here.parents[2]
 
 
 def default_master_path() -> Path:
     root = _repo_root()
-    path = root / "references" / "substation-master.md"
-    if not path.is_file():
-        raise FileNotFoundError(
-            "substation-master.md not found. Expected at references/substation-master.md "
-            f"relative to the repository root (looked near {root})."
-        )
-    return path
+    for rel in ("references/substations.csv", "references/substation-master.md"):
+        path = root / rel
+        if path.is_file():
+            return path
+    raise FileNotFoundError(
+        "Baseline not found. Expected references/substations.csv or "
+        f"references/substation-master.md near {root}."
+    )
 
 
-def parse_master_table(path: str | Path | None = None) -> list[dict[str, Any]]:
-    """Read the four markdown section tables into schema-complete records."""
-    master_path = Path(path) if path else default_master_path()
-    text = master_path.read_text(encoding="utf-8")
+def _parse_csv(path: Path) -> list[dict[str, Any]]:
+    records: list[dict[str, Any]] = []
+    with path.open(encoding="utf-8", newline="") as fh:
+        reader = csv.DictReader(fh)
+        for raw in reader:
+            row = {f: "" for f in SCHEMA_FIELDS}
+            for key, val in raw.items():
+                field = COLUMN_MAP.get(key, key)
+                if field in row:
+                    row[field] = (val or "").strip()
+            name = str(row.get("Substation_Name", "")).strip()
+            if not name:
+                continue
+            row["Substation_Name"] = name
+            row["Total_Capacity_MW"] = coerce_mw(row.get("Total_Capacity_MW"))
+            records.append(row)
+    return records
+
+
+def _parse_markdown(text: str) -> list[dict[str, Any]]:
     records: list[dict[str, Any]] = []
     header: list[str] | None = None
-
     for raw in text.splitlines():
         line = raw.strip()
         if not line.startswith("|"):
@@ -68,7 +85,7 @@ def parse_master_table(path: str | Path | None = None) -> list[dict[str, Any]]:
             continue
         if set(cells[0]) <= {"-"} or cells[0].startswith("-"):
             continue
-        if cells[0] == "Region" or (cells[0] in COLUMN_MAP and cells[0] == "Region"):
+        if cells[0] == "Region":
             header = [COLUMN_MAP.get(c, c) for c in cells]
             continue
         if header is None:
@@ -86,3 +103,11 @@ def parse_master_table(path: str | Path | None = None) -> list[dict[str, Any]]:
         row["Total_Capacity_MW"] = coerce_mw(row.get("Total_Capacity_MW"))
         records.append(row)
     return records
+
+
+def parse_master_table(path: str | Path | None = None) -> list[dict[str, Any]]:
+    """Read the baseline from CSV (preferred) or markdown section tables."""
+    master_path = Path(path) if path else default_master_path()
+    if master_path.suffix.lower() == ".csv":
+        return _parse_csv(master_path)
+    return _parse_markdown(master_path.read_text(encoding="utf-8"))
