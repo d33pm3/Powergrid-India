@@ -1,0 +1,67 @@
+Region,State,Substation_Name,Type_AIS_GIS,Voltage_Level,Transformation_Capacity_MVA,Renewable_Companies_Connected,Project_Type,Total_Capacity_MW,Remarks
+SR,Karnataka,Dharwad PS,AIS,400/220 kV,2x315 MVA,Various developers (300 MW),Wind/Solar,400,Active - RE integration node
+SR,Telangana,Mahbubnagar PS,AIS,400/220 kV,2x315 MVA,Various developers (300 MW),Solar,400,Active - Solar evacuation node
+ER,Odisha,Jharsuguda PS,AIS,400/220 kV,2x315 MVA,Various developers (300 MW),Solar,400,Active - RE integration at CTU node
+SR,Tamil Nadu,Madurai PS,AIS,400/220 kV,2x315 MVA,Various developers (300 MW),Wind/Solar,400,Active - RE integration node
+SR,Andhra Pradesh,Prakasam PS,AIS,400/220 kV,2x315 MVA,Various developers (300 MW),Solar/Wind,400,Active - RE integration node
+SR,Karnataka,Gulbarga PS,AIS,400/220 kV,2x315 MVA,Various developers (300 MW),Solar,400,Active - Solar evacuation node
+SR,Karnataka,Bijapur PS,AIS,400/220 kV,2x315 MVA,Various developers (300 MW),Solar/Wind,400,Active - RE integration node
+SR,Telangana,Ramagundam PS,AIS,400/220 kV,2x315 MVA,"NTPC (200 MW), Various (100 MW)",Solar,400,Active - NTPC Solar integration
+WR,Rajasthan,Pali PS,AIS,400/220 kV,2x315 MVA,Various developers (300 MW),Solar/Wind,400,Active - RE corridor node
+WR,Rajasthan,Sikar PS,AIS,400/220 kV,2x315 MVA,Various developers (300 MW),Solar,400,Active - RE integration node
+WR,Gujarat,Vadodara PS,AIS,400/220 kV,2x315 MVA,"NTPC (100 MW), Azure Power (80 MW)",Solar,300,Active - RE integration at existing CTU node
+WR,Rajasthan,Kota PS,AIS,765/400 kV,2x1500 MVA 765/400kV,Various developers (200 MW),Solar,300,Active - RE integration at existing CTU node
+WR,Maharashtra,Aurangabad PS,AIS,400/220 kV,2x315 MVA,Various developers (250 MW),Solar,300,Active - RE integration node
+WR,Maharashtra,Dhule PS,AIS,400/220 kV,2x315 MVA,Various developers (200 MW),Solar/Wind,300,Active - RE integration node
+ER,Odisha,Berhampur PS,AIS,400/220 kV,2x315 MVA,Various developers (200 MW),Solar,300,Active - Solar evacuation node
+ER,West Bengal,Purulia PS,AIS,400/220 kV,2x315 MVA,"WBSEDCL (100 MW), Various (100 MW)",Solar/Pump Storage,300,Active - Purulia PSP linked RE node
+ER,Chhattisgarh,Raipur PS,AIS,400/220 kV,2x315 MVA,Various developers (200 MW),Solar,300,Active - RE integration at CTU node
+WR,Gujarat,Junagadh PS,AIS,400/220 kV,2x315 MVA,Various developers (200 MW),Wind/Solar,300,Active - RE evacuation node
+WR,Rajasthan,Chittorgarh PS,AIS,400/220 kV,2x315 MVA,Various developers (200 MW),Solar,300,Active - RE integration node
+SR,Tamil Nadu,Coimbatore PS,AIS,400/220 kV,2x315 MVA,Various developers (200 MW),Wind,300,Active - Wind evacuation node
+SR,Andhra Pradesh,Guntur PS,AIS,400/220 kV,2x315 MVA,Various developers (200 MW),Solar,300,Active - RE evacuation node
+WR,Madhya Pradesh,Ujjain PS,AIS,400/220 kV,2x315 MVA,Various developers (200 MW),Solar,300,Active - RE integration node
+NR,Uttar Pradesh,Allahabad PS,AIS,400/220 kV,2x315 MVA,Various developers (200 MW),Solar,300,Active - RE integration node
+WR,Maharashtra,Nagpur PS,AIS,400/220 kV,2x315 MVA,Various developers (200 MW),Solar,300,Active - RE integration at CTU node
+WR,Maharashtra,Nashik PS,AIS,400/220 kV,2x315 MVA,Various developers (200 MW),Solar/Wind,300,Active - RE integration node
+SR,Karnataka,Davangere PS,AIS,400/220 kV,2x315 MVA,Various developers (200 MW),Solar/Wind,300,Active - RE integration node
+NR,Uttar Pradesh,Agra PS,AIS,400/220 kV,2x315 MVA,Various developers (200 MW),Solar,250,Active - RE integration node
+NR,Uttar Pradesh,Jhansi PS,AIS,400/220 kV,2x315 MVA,Various developers (200 MW),Solar,250,"Active - Solar park evacuation node, Bundelkhand region"
+NR,Punjab,Bathinda PS,AIS,400/220 kV,2x315 MVA,Various developers (200 MW),Solar,250,Active - RE integration at CTU node
+NR,Haryana,Bhiwani PS,AIS,400/220 kV,2x315 MVA,Various developers (200 MW),Solar/Wind,250,Active - RE integration node
+SR,Telangana,Hyderabad (Ghatkesar) PS,AIS,400/220 kV,2x315 MVA,Various developers (200 MW),Solar,250,Active - RE integration at CTU node
+ER,Jharkhand,Ranchi PS,AIS,400/220 kV,2x315 MVA,Various developers (200 MW),Solar,250,Active - RE integration at CTU node
+ER,Bihar,Banka PS,AIS,400/220 kV,2x315 MVA,Various developers (200 MW),Solar,250,Active - RE integration node
+WR,Madhya Pradesh,Morena PS,AIS,400/220 kV,2x315 MVA,Various developers (200 MW),Solar,250,Active - RE integration node
+SR,Telangana,Warangal PS,AIS,400/220 kV,2x315 MVA,Various developers (200 MW),Solar,250,Active - RE integration node
+ER,Bihar,Gaya PS,AIS,400/220 kV,2x315 MVA,Various developers (200 MW),Solar,250,Active - Solar evacuation node
+WR,Rajasthan,Jaipur-II PS,AIS,400/220 kV,2x315 MVA,Various developers (150 MW),Solar,200,Active - RE integration at existing CTU node
+WR,Maharashtra,Pune (Lonikand) PS,AIS,400/220 kV,2x315 MVA,Various developers (150 MW),Solar,200,Active - RE integration at CTU node
+NR,Uttar Pradesh,Lucknow PS,AIS,400/220 kV,2x315 MVA,"NTPC (100 MW), Various (100 MW)",Solar,200,Active - RE integration
+NR,Haryana,Hisar PS,AIS,400/220 kV,2x315 MVA,Various developers (150 MW),Solar,200,Active - RE integration
+NR,Uttarakhand,Kashipur PS,AIS,400/220 kV,2x315 MVA,"NTPC (100 MW), Various (50 MW)",Solar/Hydro,200,"Active - RE integration, Hydro-Solar hybrid potential"
+NR,Ladakh,Leh PS,GIS,220 kV,2x100 MVA,"NHPC (100 MW), SECI (100 MW)",Solar,200,Planned - Ladakh Solar Park evacuation
+NR,Haryana,Kurukshetra PS,AIS,400/220 kV,2x315 MVA,Various developers (150 MW),Solar,200,Active - RE integration at CTU node
+ER,Jharkhand,Jamshedpur PS,AIS,400/220 kV,2x315 MVA,Various developers (150 MW),Solar,200,Active - RE integration node
+ER,West Bengal,Durgapur PS,AIS,400/220 kV,2x315 MVA,Various developers (150 MW),Solar,200,Active - RE integration at CTU node
+ER,Chhattisgarh,Korba PS,AIS,400/220 kV,2x315 MVA,Various developers (150 MW),Solar,200,Active - RE integration node
+NER,Assam,Bongaigaon PS,AIS,400/220 kV,2x315 MVA,"NTPC (100 MW), Various (50 MW)",Solar,200,Active - RE integration at CTU node
+WR,Maharashtra,Kolhapur PS,AIS,400/220 kV,2x315 MVA,Various developers (150 MW),Wind,200,Active - Wind corridor node
+ER,Odisha,Balasore PS,AIS,400/220 kV,2x315 MVA,Various developers (150 MW),Solar,200,Active - RE integration node
+ER,Jharkhand,Hazaribagh PS,AIS,400/220 kV,2x315 MVA,Various developers (150 MW),Solar,200,Active - RE integration node
+ER,Chhattisgarh,Bilaspur PS,AIS,400/220 kV,2x315 MVA,Various developers (150 MW),Solar,200,Active - RE integration node
+NR,Punjab,Amritsar PS,AIS,400/220 kV,2x315 MVA,Various developers (100 MW),Solar,150,Active - RE integration
+NR,Himachal Pradesh,Nalagarh PS,AIS,400/220 kV,2x315 MVA,Various (100 MW),Solar/Hydro,150,Active - RE integration at CTU node
+NR,Jammu and Kashmir,Kishenpur PS,AIS,400/220 kV,2x315 MVA,Various developers (100 MW),Solar,150,Active - RE integration at CTU node
+ER,Bihar,Muzaffarpur PS,AIS,400/220 kV,2x315 MVA,Various developers (100 MW),Solar,150,Active - RE integration at CTU node
+NR,Uttar Pradesh,Bareilly PS,AIS,400/220 kV,2x315 MVA,Various developers (100 MW),Solar,150,Active - RE integration node
+SR,Kerala,Thiruvananthapuram PS,AIS,400/220 kV,2x315 MVA,Various developers (50 MW),Solar,100,Active - RE integration at CTU node
+ER,Sikkim,Rangpo PS,AIS,220 kV,2x100 MVA,NHPC (50 MW),Hydro-Solar,100,Active - Hydro-RE integration node
+NER,Assam,Guwahati PS,AIS,400/220 kV,2x315 MVA,Various developers (50 MW),Solar,100,Active - RE integration node
+NER,Meghalaya,Byrnihat PS,AIS,400/220 kV,1x315 MVA,Various developers (50 MW),Solar,80,Active - RE integration at CTU node
+NER,Tripura,Agartala PS,AIS,400/220 kV,1x315 MVA,Various developers (50 MW),Solar,80,Active - RE integration node
+NER,Arunachal Pradesh,Itanagar PS,AIS,220 kV,1x100 MVA,NHPC (50 MW),Solar/Hydro,80,Active - Hydro-Solar integration potential
+WR,Goa,Mapusa PS,AIS,400/220 kV,1x315 MVA,Various developers (50 MW),Solar,50,Active - Small RE integration at CTU node
+NER,Manipur,Imphal PS,AIS,400/220 kV,1x315 MVA,Various developers (30 MW),Solar,50,Active - RE integration node
+NER,Nagaland,Dimapur PS,AIS,220 kV,1x100 MVA,Various developers (30 MW),Solar,50,Active - RE integration node
+NER,Mizoram,Aizawl PS,AIS,132 kV,1x50 MVA,Various developers (20 MW),Solar,30,Active - Small RE integration
