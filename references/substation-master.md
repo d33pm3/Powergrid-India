@@ -1,8 +1,13 @@
 # Substation Master Reference — 132 Records
 
-Machine-readable baseline: [`substations.csv`](substations.csv) (132 unique rows, 130,500 MW).
+Machine-readable baseline (planning-grade):
 
-The CSV is planning-grade public reporting — not a verified regulatory filing. After live research, `reconcile()` adds `Data_Source`.
+- [`substations-a.csv`](substations-a.csv) — rows 1–66
+- [`substations-b.csv`](substations-b.csv) — rows 67–132
+
+`parse_master_table()` concatenates both parts (132 unique rows, 130,500 MW).
+
+Not a verified regulatory filing. After live research, `reconcile()` adds `Data_Source`.
 
 | Dimension | Baseline |
 |-----------|----------|
@@ -13,7 +18,3 @@ The CSV is planning-grade public reporting — not a verified regulatory filing.
 | Voltage | 21 × 765/400 kV; 104 × 400/220 kV; 6 × 220 kV; 1 × 132 kV |
 | BESS / PSP nodes | 9 |
 | GEC-tagged nodes | 7 |
-
-Sort: `Total_Capacity_MW` descending. Column order matches the workbook schema in `SKILL.md`.
-
-Use `parse_master_table()` — do not hand-copy rows into sheet JSON.
