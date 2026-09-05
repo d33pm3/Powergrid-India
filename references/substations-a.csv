@@ -1,0 +1,67 @@
+Region,State,Substation_Name,Type_AIS_GIS,Voltage_Level,Transformation_Capacity_MVA,Renewable_Companies_Connected,Project_Type,Total_Capacity_MW,Remarks
+NR,Ladakh,Pang PS,GIS,765/400 kV,2x1500 MVA,"SECI (5000 MW), Various (8000 MW)",Solar,13000,"Planned - Pang 13 GW Solar Park, PGCIL HVDC planned"
+WR,Gujarat,Khavda PS-I,GIS,765/400 kV,3x1500 MVA 765/400kV,Adani Green Energy (5000 MW),Solar/Wind/Hybrid,7000,"Active - Khavda 30 GW RE Park primary node, PGCIL evacuation"
+WR,Gujarat,Khavda PS-II,GIS,765/400 kV,3x1500 MVA 765/400kV,"Adani Green Energy (4000 MW), SJVN (1000 MW)",Solar/Wind/Hybrid,5000,Under implementation - Khavda RE Park Phase-II
+WR,Gujarat,Khavda PS-III,GIS,765/400 kV,3x1500 MVA 765/400kV,"Adani Green Energy (3000 MW), NTPC (2000 MW)",Solar/Wind/Hybrid,5000,Planned - Khavda RE Park Phase-III
+WR,Rajasthan,Bhadla PS,GIS,765/400 kV,3x1500 MVA 765/400kV; 4x500 MVA 400/220kV,"Adani Green (1500 MW), SB Energy (600 MW), NTPC (500 MW), Azure Power (350 MW), ReNew Power (300 MW), Tata Power (250 MW), Hero Future Energies (200 MW)",Solar,5000,"Active - Major solar park (2245 MW Ultra Mega), CTU substation"
+WR,Gujarat,Bhuj-II PS,GIS,765/400 kV,2x1500 MVA 765/400kV; 3x500 MVA 400/220kV,"Adani Green Energy (1500 MW), Tata Power Renewable (400 MW), NTPC REL (300 MW), ReNew Power (250 MW)",Solar/Wind/Hybrid,4500,"Active - Major RE hub, Khavda RE Park evacuation node"
+WR,Rajasthan,Fatehgarh PS,GIS,765/400 kV,2x1500 MVA 765/400kV; 3x500 MVA 400/220kV,"Adani Green (800 MW), Sembcorp (500 MW), SJVN (300 MW), NTPC REL (200 MW), Sprng Energy (250 MW)",Solar/Wind,3500,"Active - Major RE hub, GEC Phase-II"
+WR,Gujarat,Lakadiya PS,GIS,765/400 kV,2x1500 MVA 765/400kV; 4x500 MVA 400/220kV,"Avaada Energy (300 MW), Juniper Green Energy (200 MW), Torrent Power (115 MW), Apraava Energy (251 MW), Powerica (304 MW), KP Energy (100 MW), IndianOil NTPC Green Energy (355 MW), Airpower Windfarms (175 MW)",Solar/Wind,3200,"Active - Major RE hub, CTU substation, GEC Phase-I node"
+WR,Rajasthan,Bikaner-II PS,GIS,765/400 kV,2x1500 MVA 765/400kV; 3x500 MVA 400/220kV,"NTPC (500 MW), Adani Green (400 MW), SB Energy (350 MW), Tata Power (300 MW), Avaada (250 MW)",Solar,3000,"Active - Major solar hub, CTU substation"
+SR,Tamil Nadu,Kayathar PS,GIS,765/400 kV,2x1500 MVA 765/400kV; 3x500 MVA 400/220kV,"Adani Green (600 MW), Suzlon (400 MW), ReNew (300 MW), CLP India (200 MW), Sembcorp (200 MW)",Wind/Solar,3000,"Active - Major wind corridor hub, GEC Phase-I"
+WR,Rajasthan,Fatehgarh-II PS,GIS,765/400 kV,2x1500 MVA 765/400kV; 4x500 MVA 400/220kV,"ReNew Power (500 MW), Adani Green (400 MW), Greenko (300 MW), O2 Power (250 MW)",Solar/Wind,2500,Active - Fatehgarh complex expansion
+WR,Rajasthan,Bikaner-III PS,GIS,765/400 kV,2x1500 MVA 765/400kV,Various developers (2500 MW),Solar,2500,Under implementation - Bikaner solar complex expansion
+WR,Rajasthan,Barmer PS,GIS,765/400 kV,2x1500 MVA 765/400kV; 3x500 MVA 400/220kV,"Adani Green (600 MW), SJVN (400 MW), NTPC (300 MW), ReNew (250 MW)",Solar/Wind,2500,"Active - Barmer REZ, GEC Phase-II"
+SR,Tamil Nadu,Tuticorin-II PS,GIS,400/220 kV,4x500 MVA,"Adani Green (500 MW), ReNew (300 MW), Various (700 MW)",Wind/Solar,2500,"Active - Expansion of Tuticorin complex, PGCIL"
+SR,Andhra Pradesh,Kurnool PS,GIS,765/400 kV,2x1500 MVA 765/400kV; 3x500 MVA 400/220kV,"Adani Green (600 MW), SB Energy (400 MW), Azure Power (350 MW), Various (650 MW)",Solar,2500,"Active - Kurnool Ultra Mega Solar Park, Major solar hub"
+WR,Rajasthan,Fatehgarh-III PS,GIS,765/400 kV,2x1500 MVA 765/400kV,Various developers (2000 MW),Solar/Wind,2000,Under implementation - Jaisalmer REZ
+WR,Rajasthan,Barmer-II PS,GIS,765/400 kV,2x1500 MVA 765/400kV,Various developers (2000 MW),Solar/Wind,2000,Under implementation - Barmer REZ expansion
+WR,Rajasthan,Jodhpur-II PS,GIS,765/400 kV,2x1500 MVA 765/400kV; 3x500 MVA 400/220kV,"Adani Green (500 MW), Azure Power (300 MW), Hero Future (200 MW)",Solar/Wind,2000,"Active - Major RE hub, GEC node"
+WR,Rajasthan,Pokhran PS,GIS,765/400 kV,2x1500 MVA 765/400kV,"NTPC (500 MW), Adani (400 MW), Various (600 MW)",Solar,2000,Active - Jaisalmer-Barmer REZ
+SR,Tamil Nadu,Tuticorin PS,GIS,400/220 kV,3x500 MVA,"Coastal Energen (542 MW), Adani Green (500 MW), Various (400 MW)",Wind/Solar,2000,"Active - Major wind/solar hub, CTU substation"
+SR,Karnataka,Tumkur PS (Pavagada),GIS,400/220 kV,3x500 MVA,"Adani Green (500 MW), SB Energy (300 MW), Tata Power (200 MW), Various (500 MW)",Solar,2000,"Active - Pavagada 2 GW Solar Park evacuation, Major solar hub"
+WR,Madhya Pradesh,Agar PS,GIS,765/400 kV,2x1500 MVA 765/400kV; 3x500 MVA 400/220kV,"NTPC (600 MW), Adani (400 MW), ReNew (300 MW)",Solar,1800,"Active - Major solar hub, Rewa Ultra Mega corridor"
+WR,Gujarat,Bhuj-III (Nakhtarana) PS,GIS,400/220 kV,3x500 MVA,"Adani Green Energy (800 MW), Suzlon Energy (200 MW)",Solar/Wind/Hybrid,1500,Under implementation - Khavda corridor node
+WR,Rajasthan,Jaisalmer-II PS,GIS,400/220 kV,3x500 MVA,"Suzlon (400 MW), Inox Wind (300 MW), ReNew (250 MW)",Wind/Solar,1500,"Active - Wind-rich node, Jaisalmer wind corridor"
+SR,Tamil Nadu,Kayathar-II PS,GIS,400/220 kV,3x500 MVA,Various developers (1500 MW),Wind/Solar,1500,Under implementation - Wind corridor expansion
+SR,Karnataka,Gadag-II PS,GIS,400/220 kV,3x500 MVA,"SolarXL Beta Energy (207 MW), Adani Green (300 MW), NTPC (200 MW), Various (300 MW)",Solar/Wind/Hybrid,1500,"Active - Major RE hub, CTU substation"
+SR,Andhra Pradesh,Anantapur PS,GIS,400/220 kV,3x500 MVA,"Adani Green (500 MW), ReNew (300 MW), Various (400 MW)",Solar/Wind,1500,"Active - Major RE hub, Anantapur Solar Park corridor"
+WR,Gujarat,Dwarka PS,GIS,400/220 kV,2x500 MVA,"Suzlon Energy (300 MW), Inox Wind (200 MW), Envision Energy (150 MW)",Wind,1200,"Active - Wind-rich node, GEC"
+WR,Madhya Pradesh,Neemuch PS,GIS,765/400 kV,2x1500 MVA 765/400kV,"NTPC (500 MW), Various (500 MW)",Solar,1200,"Active - Solar evacuation node, GEC"
+SR,Tamil Nadu,Ramanathapuram PS,GIS,400/220 kV,3x500 MVA,Various developers (800 MW),Wind/Solar,1200,"Active - RE evacuation node, Tamil Nadu wind zone"
+SR,Karnataka,Koppal PS,GIS,400/220 kV,3x500 MVA,Various developers (1000 MW),Solar/Wind,1200,"Active - RE evacuation hub, Pavagada Solar Park corridor"
+SR,Andhra Pradesh,Pinnapuram PSP PS,AIS,400/220 kV,2x315 MVA,APGENCO (1200 MW PSP),Pump Storage,1200,Under implementation - Pinnapuram Pumped Storage
+WR,Rajasthan,Ramgarh PS,GIS,400/220 kV,3x500 MVA,"NTPC (300 MW), Various (400 MW)",Solar,1000,Active - Solar evacuation node
+SR,Andhra Pradesh,Kadapa PS,GIS,400/220 kV,2x500 MVA,"NTPC (500 MW), Various (300 MW)",Solar,1000,Active - NP Kunta Ultra Mega Solar Park evacuation
+WR,Gujarat,Halvad PS,GIS,400/220 kV,3x500 MVA,Various developers (800 MW),Solar/Wind,1000,"Active - RE evacuation hub, Surendranagar-Morbi corridor"
+WR,Rajasthan,Bikaner BESS PS,GIS,400/220 kV,2x500 MVA,"NTPC (500 MW/2000 MWh), Greenko (300 MW)",Solar/Wind/Hybrid/BESS,1000,Under implementation - BESS integration node
+WR,Gujarat,Khavda BESS PS,GIS,400/220 kV,2x500 MVA,Adani Green (1000 MW BESS),Solar/Wind/Hybrid/BESS,1000,Planned - BESS at Khavda RE Park
+WR,Maharashtra,Koyna PSP PS,AIS,400/220 kV,2x315 MVA,MSGENCO (1000 MW PSP),Pump Storage/Hydro,1000,Active - Koyna PSP integration
+NR,Uttarakhand,Tehri PSP PS,AIS,400/220 kV,2x315 MVA,THDC (1000 MW PSP),Pump Storage/Hydro,1000,Under implementation - Tehri PSP Stage-II
+WR,Gujarat,Amreli PS,GIS,400/220 kV,2x500 MVA,"Suzlon (250 MW), ReNew (200 MW), Adani (150 MW)",Wind/Solar,900,Active - Wind corridor node
+WR,Rajasthan,Nagaur PS,GIS,400/220 kV,3x500 MVA,"NTPC (300 MW), Various (400 MW)",Solar/Wind,900,Active - Solar/Wind corridor node
+WR,Gujarat,Mundra PS,AIS,400/220 kV,3x315 MVA,"Adani Power (300 MW Solar), Tata Power (200 MW)",Solar,800,"Active - CTU substation, RE integration at existing node"
+WR,Rajasthan,Phalodi PS,GIS,400/220 kV,2x500 MVA,Various developers (600 MW),Solar,800,Active - Jodhpur-Jaisalmer corridor
+SR,Kerala,Idukki PSP PS,AIS,220 kV,2x100 MVA,KSEB (780 MW PSP),Pump Storage/Hydro,780,Active - Idukki PSP integration
+WR,Madhya Pradesh,Rewa PS,GIS,400/220 kV,3x500 MVA,"NTPC (250 MW), Mahindra Susten (250 MW), SECI (250 MW)",Solar,750,Active - Rewa Ultra Mega Solar Park evacuation
+WR,Gujarat,Rajkot-II PS,AIS,400/220 kV,2x315 MVA,"Adani Green (200 MW), Azure Power (150 MW)",Solar/Wind,600,Active - CTU substation
+WR,Maharashtra,Solapur PG,AIS,400/220 kV,2x315 MVA,"NTPC (13 MW), Tata Power (200 MW), Various (300 MW)",Solar,600,"Active - CTU substation, RE integration"
+SR,Tamil Nadu,Kanyakumari PS,AIS,400/220 kV,2x315 MVA,"Suzlon (200 MW), Various (300 MW)",Wind,600,Active - Wind-rich node
+SR,Karnataka,Raichur PS,AIS,400/220 kV,2x315 MVA,Various developers (500 MW),Solar,600,Active - RE integration at CTU node
+SR,Karnataka,Chitradurga PS,AIS,400/220 kV,2x315 MVA,Various developers (500 MW),Solar/Wind,600,Active - Pavagada Solar Park corridor node
+SR,Andhra Pradesh,Tadipatri PS,AIS,400/220 kV,2x315 MVA,Various developers (500 MW),Solar/Wind,600,Active - RE integration node
+WR,Gujarat,Kutch PS,AIS,400/220 kV,2x315 MVA,"Suzlon (250 MW), Various (200 MW)",Wind,600,Active - Wind corridor node
+NR,Uttar Pradesh,Mirzapur PS,AIS,400/220 kV,2x315 MVA,"NTPC (200 MW), Various (200 MW)",Solar,500,Active - UP solar park cluster
+SR,Tamil Nadu,Tirunelveli PS,AIS,400/220 kV,2x315 MVA,Various developers (400 MW),Wind/Solar,500,Active - Wind corridor node
+SR,Karnataka,Bellary PS,AIS,400/220 kV,2x315 MVA,Various developers (400 MW),Solar/Wind,500,Active - RE evacuation node
+SR,Andhra Pradesh,Nandyal PS,AIS,400/220 kV,2x315 MVA,Various developers (400 MW),Solar,500,Active - Solar evacuation node
+ER,Odisha,Angul PS,AIS,400/220 kV,2x315 MVA,"NTPC (200 MW), Various (200 MW)",Solar,500,Active - RE integration node
+SR,Karnataka,Pavagada BESS PS,GIS,400/220 kV,1x500 MVA,Various (500 MW BESS),Solar/BESS,500,Planned - BESS integration at Pavagada
+SR,Tamil Nadu,Kundah PSP PS,AIS,220 kV,2x100 MVA,TANGEDCO (500 MW PSP),Pump Storage,500,Active - Kundah Pumped Storage integration
+WR,Gujarat,Surendranagar PS,AIS,400/220 kV,2x315 MVA,Various developers (500 MW),Solar,500,Active - Solar evacuation node
+WR,Gujarat,Bhavnagar PS,AIS,400/220 kV,2x315 MVA,"Sembcorp (200 MW), Tata Power (150 MW)",Solar/Wind,500,Active - RE evacuation node
+WR,Madhya Pradesh,Mandsaur PS,GIS,400/220 kV,2x500 MVA,Various developers (400 MW),Solar,500,Active - Solar corridor node
+WR,Rajasthan,Ajmer PS,AIS,400/220 kV,2x315 MVA,Various developers (300 MW),Solar,400,Active - RE integration at CTU node
+WR,Madhya Pradesh,Shajapur PS,AIS,400/220 kV,2x315 MVA,Various developers (300 MW),Solar,400,Active - RE evacuation node
+NR,Uttar Pradesh,Fatehpur PS,AIS,400/220 kV,2x315 MVA,Various developers (300 MW),Solar,400,Active - RE integration at CTU node
+SR,Tamil Nadu,Dindigul PS,AIS,400/220 kV,2x315 MVA,Various developers (300 MW),Wind,400,Active - Wind evacuation node
