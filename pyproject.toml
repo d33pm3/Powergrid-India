@@ -9,7 +9,7 @@ description = "PAN India RE substation master and 10-sheet workbook builder (pla
 readme = "README.md"
 requires-python = ">=3.10"
 license = { text = "MIT" }
-authors = [{ name = "de-risk Consulting" }]
+authors = [{ name = "DK Mendiratta" }]
 dependencies = ["openpyxl>=3.1"]
 
 [project.optional-dependencies]
