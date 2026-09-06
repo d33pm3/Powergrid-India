@@ -1,7 +1,7 @@
 ---
 name: powergrid-india
 version: "2.1.2"
-author: de-risk Consulting (DKM)
+author: DK Mendiratta
 description: |
   PAN India RE Substation skill - 132+ CTU/PGCIL substations across 5 regions (WR, NR, SR, ER, NER) and 30 states. Performs live web research (CTUIL, PGCIL, CEA, MNRE, GEC), reconciles against the embedded baseline, and builds a 10-sheet XLSX workbook with an Analytics Dashboard.
 
@@ -24,12 +24,15 @@ Canonical source: https://github.com/d33pm3/Powergrid-India
 Powergrid-India/
 ├── SKILL.md
 ├── references/substation-master.md
-├── references/substations.csv          ← 132-row baseline
+├── references/substations-a.csv      ← baseline rows 1–66
+├── references/substations-b.csv      ← baseline rows 67–132
 ├── references/generation-script.md
 ├── evals/
 ├── src/powergrid_india/
 └── tests/
 ```
+
+`parse_master_table()` concatenates `substations-a.csv` and `substations-b.csv` (132 unique rows). There is no single `references/substations.csv` in this tree.
 
 ## Part 0 — Contract
 
